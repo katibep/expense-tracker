@@ -36,6 +36,7 @@
   .main-container .form {
     width: 100%;
     right: 0%;
+    bottom: 9%;
   }
 }
 .main-container .form .new-transaction {
