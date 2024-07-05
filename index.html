@@ -8,6 +8,39 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+   <div class="main-container">
+    <div class="overlay"></div>
+    <div class="form">
+      <div class="new-transaction">
+        <p>New Transaction</p>
+        <button class="close box"><i class='bx bx-x'></i></button>
+      </div>
+      <div class="inputs">
+        <div class="input">
+            <p>Title</p>
+          <input class="tittle" type="text" placeholder="Enter title"> 
+          </div>
+          <div class="input">
+            <p>Amount</p>
+          <input class="amount" type="number" placeholder="Enter Amount"> 
+          </div>
+      </div>
+      <div class="transaction-type">
+        <p>Select the transaction type</p>
+        <div class="blue1">
+            <input type="radio" name="type" value="income" id="income" />
+            <label for="income">Income</label>
+          </div>
+          <div class="blue2">
+            <input type="radio" value="expense" name="type" id="expense" />
+            <label for="expense">Expense</label>
+          </div>
+        <div class="btns">
+            <button class="close">close</button>
+            <button type="submit" class="create">create</button>
+        </div>
+      </div>
+    </div>
     <div class="container">
         <div class="top-container">
             <div class="right">
@@ -46,61 +79,19 @@
                         <p>-$2653 <br> <span>Today</span></p>
                     </div>
                 </div>
-                <div class="upwards">
-                    <div class="word">
-                        <i class='bx bx-up-arrow-alt pink' ></i>
-                        <p>Salary <br> <span>income</span></p>
-                    </div>
-                    <div class="namba">
-                        <p>-$366 <br> <span>Today</span></p>
-                    </div>
-                </div>
-                
-               </div>
-               <div class="all-arrows">
-                <div class="down">
-                    <div class="word">
-                        <i class='bx bx-down-arrow-alt' ></i>
-                        <p>Library Subscriptions <br> <span>books</span></p>
-                    </div>
-                    <div class="namba">
-                        <p>-$256 <br> <span>yesterday</span></p>
-                    </div>
-                </div>
-                <div class="upwards">
-                    <div class="word">
-                        <i class='bx bx-down-arrow-alt i' ></i>
-                        <p>Glocery<br> <span>food</span></p>
-                    </div>
-                    <div class="namba">
-                        <p>-$100 <br> <span>yesterday</span></p>
-                    </div>
-                </div>
-                
-               </div>
-               <div class="all-arrows">
-                <div class="down">
-                    <div class="word">
-                        <i class='bx bx-down-arrow-alt' ></i>
-                        <p>Clothes <br> <span>shopping</span></p>
-                    </div>
-                    <div class="namba">
-                        <p>-$50 <br> <span>3/30/2022</span></p>
-                    </div>
-                </div>
-                
-                
                </div>
             </div>
         </div>
         <div class="footer">
             <i class='bx bx-store'></i>
             <i class='bx bx-bar-chart-alt-2' ></i>
-            <i class='bx bx-plus t' ></i>
+            <button class="button"><i class='bx bx-plus t' ></i> </button>
             <i class='bx bx-bell' ></i>
             <i class='bx bx-user'></i>
         </div>
     </div>
+   </div>
+    
     <script src="app.js"></script>
 </body>
 </html>
