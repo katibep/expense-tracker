@@ -34,8 +34,8 @@
 }
 @media (max-width: 768px) {
   .main-container .form {
-    width: 100%;
-    right: 0%;
+    width: 70%;
+    right: 15%;
     bottom: 9%;
   }
 }
@@ -63,10 +63,22 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+@media (max-width: 768px) {
+  .main-container .form .inputs p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
 .main-container .form .inputs input {
   width: 100%;
   padding: 1rem;
   font-size: 1.3rem;
+}
+@media (max-width: 768px) {
+  .main-container .form .inputs input {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
 }
 .main-container .form .transaction-type {
   display: flex;
@@ -76,6 +88,11 @@
 }
 .main-container .form .transaction-type p {
   font-size: 1.3rem;
+}
+@media (max-width: 768px) {
+  .main-container .form .transaction-type p {
+    font-size: 1rem;
+  }
 }
 .main-container .form .transaction-type .income {
   display: flex;
@@ -101,6 +118,12 @@
   border-radius: 10px;
   border: none;
   font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+  .main-container .form .transaction-type .btns button {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+  }
 }
 .main-container .container {
   width: 40%;

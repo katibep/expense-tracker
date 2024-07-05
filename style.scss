@@ -29,8 +29,8 @@
         right: 39%;
         bottom:15%;
         @media(max-width:768px){
-            width: 100%;
-            right: 0%;
+            width: 70%;
+            right: 15%;
             bottom: 9%;
         }
         .new-transaction{
@@ -52,14 +52,25 @@
             flex-direction: column;
             gap: 1rem;
             margin-top: 1rem;
+            @media(max-width:768px){
+
+            }
             p{
                 margin-top: 1rem;
                 margin-bottom: 1rem;
+                @media(max-width:768px){
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
             }
             input{
              width: 100%;
              padding: 1rem;
              font-size: 1.30rem;
+             @media(max-width:768px){
+                font-size: 1rem;
+                padding: .50rem;
+             }
             }
         }
         .transaction-type{
@@ -69,6 +80,9 @@
             margin-top: 2rem;
             p{
                 font-size: 1.30rem;
+                @media(max-width:768px){
+                    font-size: 1rem;
+                }
             }
            .income{
             display: flex;
@@ -93,6 +107,10 @@
                 border-radius: 10px;
                 border: none;
                 font-size: 1.20rem;
+                @media(max-width:768px){
+                    font-size: 1rem;
+                    padding: 1rem 1rem;
+                }
             }
            }
         }
