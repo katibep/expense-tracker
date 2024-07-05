@@ -6,18 +6,20 @@
   font-family: "Outfit", sans-serif;
 }
 
-.main-container {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.main-container .overlay {
+body .overlay {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
   z-index: 8888;
   display: none;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 5rem;
 }
 .main-container .form {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
