@@ -10,37 +10,37 @@
 <body>
     <div class="overlay"></div>
    <div class="main-container">
-    <div class="form">
-      <div class="new-transaction">
-        <p>New Transaction</p>
-        <button class="close box"><i class='bx bx-x'></i></button>
-      </div>
-      <div class="inputs">
-        <div class="input">
-            <p>Title</p>
-          <input class="tittle" type="text" placeholder="Enter title"> 
+    <form class="form">
+        <div class="new-transaction">
+            <p>New Transaction</p>
+            <button type="button" class="close box"><i class='bx bx-x'></i></button>
           </div>
-          <div class="input">
-            <p>Amount</p>
-          <input class="amount" type="number" placeholder="Enter Amount"> 
+          <div class="inputs">
+            <div class="input">
+                <p>Title</p>
+              <input class="tittle" type="text" placeholder="Enter title"> 
+              </div>
+              <div class="input">
+                <p>Amount</p>
+              <input class="amount" type="number" placeholder="Enter Amount"> 
+              </div>
           </div>
-      </div>
-      <div class="transaction-type">
-        <p>Select the transaction type</p>
-        <div class="blue1">
-            <input type="radio" name="type" value="income" id="income" />
-            <label for="income">Income</label>
+          <div class="transaction-type">
+            <p>Select the transaction type</p>
+            <div class="blue1">
+                <input type="radio" name="type" value="income" id="income" />
+                <label for="income">Income</label>
+              </div>
+              <div class="blue2">
+                <input type="radio" value="expense" name="type" id="expense" />
+                <label for="expense">Expense</label>
+              </div>
+            <div class="btns">
+                <button type="button" class="close">close</button>
+                <button type="submit" class="create">create</button>
+            </div>
           </div>
-          <div class="blue2">
-            <input type="radio" value="expense" name="type" id="expense" />
-            <label for="expense">Expense</label>
-          </div>
-        <div class="btns">
-            <button class="close">close</button>
-            <button type="submit" class="create">create</button>
-        </div>
-      </div>
-    </div>
+    </form>
     <div class="container">
         <div class="top-container">
             <div class="right">
