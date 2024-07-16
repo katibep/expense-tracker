@@ -359,3 +359,19 @@ body{
         }
     }
 }
+.green{
+   i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.50rem;
+        height: 30px;
+        width: 30px;
+        padding: .5rem;
+        border-radius: 50%;
+        background-color: #e11d4771;
+        color: #e11d48;
+    }
+    color: green;
+    
+}

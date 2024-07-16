@@ -365,4 +365,20 @@ body .overlay {
   border-radius: 50%;
   font-size: 2rem;
   padding: 0.5rem;
+}
+
+.green {
+  color: green;
+}
+.green i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 30px;
+  width: 30px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: rgba(225, 29, 71, 0.4431372549);
+  color: #e11d48;
 }/*# sourceMappingURL=style.css.map */
