@@ -273,6 +273,18 @@ body .overlay {
   gap: 0.6rem;
   font-weight: bold;
 }
+.main-container .container .white-container .arrows .all-arrows .down .word .bx-up-arrow-alt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 30px;
+  width: 30px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: rgba(0, 128, 0, 0.38);
+  color: green;
+}
 .main-container .container .white-container .arrows .all-arrows .down .word span {
   font-size: smaller;
   font-weight: normal;

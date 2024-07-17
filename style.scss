@@ -253,6 +253,18 @@ body{
                         padding: .50rem;
                         border-radius: 10px;
                         .word{
+                            .bx-up-arrow-alt{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                font-size: 1.50rem;
+                                height: 30px;
+                                width: 30px;
+                                padding: .5rem;
+                                border-radius: 50%;
+                                background-color: rgba(0, 128, 0, 0.38);
+                                color: green;
+                            }
                             span{
                                 font-size: smaller;
                                 font-weight: normal;
@@ -375,3 +387,4 @@ body{
     color: green;
     
 }
+
